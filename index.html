@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>WSN.Fun — Private VPN for open internet</title>
+<meta name="description" content="WSN.Fun is a private VPN service: 40+ locations, WireGuard speed, no-logs policy.">
+<meta name="theme-color" content="#0b1020"><meta property="og:image" content="assets/img/og.png">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="assets/img/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css"></head>
+<body>
+<header class="nav" id="nav"><a class="brand" href="#top"><img src="assets/img/logo.svg" alt="" width="32" height="32">WSN<span>.Fun</span></a>
+<nav id="menu"><a href="#features">Features</a><a href="#locations">Locations</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
+<div class="navr"><button class="btn ghost" data-auth="login">Sign in</button><button class="btn" data-auth="register">Get started</button>
+<button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><i></i><i></i></button></div></header>
+
+<main id="top">
+<section class="hero"><canvas id="globe" aria-hidden="true"></canvas>
+<div class="wrap hero-in"><p class="pill"><b class="dot"></b> 1,248 servers online right now</p>
+<h1>The internet, without the borders.</h1>
+<p class="lead">WSN.Fun routes your traffic through encrypted WireGuard tunnels in 42 countries. No logs, no throttling, one tap to connect.</p>
+<div class="cta"><button class="btn big" data-auth="register">Start 7-day trial</button><a class="btn ghost big" href="#features">See how it works</a></div>
+<ul class="stats"><li><b data-n="42">0</b>countries</li><li><b data-n="1248">0</b>servers</li><li><b data-n="10">0</b>Gbps ports</li><li><b data-n="0">0</b>logs kept</li></ul></div>
+<img class="waves" src="assets/img/waves.svg" alt=""></section>
+
+<section id="features" class="wrap sec"><h2>Built for people who want to be left alone</h2>
+<div class="grid3" id="feat"></div></section>
+
+<section id="locations" class="sec alt"><div class="wrap"><h2>Pick a city. Be there in a second.</h2>
+<div class="grid4">
+<article class="city tilt"><img loading="lazy" src="assets/img/city-frankfurt.jpg" alt="Frankfurt skyline at dusk"><div><h3>Frankfurt</h3><p>DE · 8 ms</p></div></article>
+<article class="city tilt"><img loading="lazy" src="assets/img/city-amsterdam.jpg" alt="Amsterdam skyline"><div><h3>Amsterdam</h3><p>NL · 11 ms</p></div></article>
+<article class="city tilt"><img loading="lazy" src="assets/img/city-singapore.jpg" alt="Singapore skyline"><div><h3>Singapore</h3><p>SG · 74 ms</p></div></article>
+<article class="city tilt"><img loading="lazy" src="assets/img/city-newyork.jpg" alt="New York skyline"><div><h3>New York</h3><p>US · 96 ms</p></div></article></div></div></section>
+
+<section id="pricing" class="wrap sec"><h2>Simple plans. Cancel any time.</h2>
+<div class="switch"><span>Monthly</span><button id="bill" role="switch" aria-checked="false" aria-label="Yearly billing"><i></i></button><span>Yearly <em>−35%</em></span></div>
+<div class="grid3 plans">
+<article class="plan tilt"><h3>Basic</h3><p class="price"><b data-m="4.9" data-y="3.2">4.9</b> €/mo</p><ul><li>3 devices</li><li>12 locations</li><li>WireGuard</li></ul><button class="btn ghost" data-order="Basic">Order</button></article>
+<article class="plan hot tilt"><h3>Plus</h3><p class="price"><b data-m="7.9" data-y="5.1">7.9</b> €/mo</p><ul><li>8 devices</li><li>All 42 countries</li><li>Ad &amp; tracker block</li></ul><button class="btn" data-order="Plus">Order</button></article>
+<article class="plan tilt"><h3>Family</h3><p class="price"><b data-m="12.9" data-y="8.4">12.9</b> €/mo</p><ul><li>20 devices</li><li>Dedicated IP</li><li>Priority support</li></ul><button class="btn ghost" data-order="Family">Order</button></article></div></section>
+
+<section id="faq" class="sec alt"><div class="wrap narrow"><h2>Questions</h2>
+<details><summary>Do you keep logs?</summary><p>No. We store no connection, traffic or DNS logs.</p></details>
+<details><summary>Which protocols are supported?</summary><p>WireGuard, OpenVPN and VLESS over TLS.</p></details>
+<details><summary>Which payment methods work?</summary><p>Cards, PayPal and crypto. Available after you sign in.</p></details>
+<details><summary>Can I get a refund?</summary><p>Yes, within 14 days of your first payment.</p></details></div></section>
+
+<section id="contact" class="wrap sec"><h2>Talk to a human</h2><div class="grid3">
+<a class="card tilt" href="mailto:webspacenet.fun@gmail.com"><svg viewBox="0 0 24 24"><path d="M3 6h18v12H3zM3 7l9 7 9-7"/></svg><h3>Email</h3><p>webspacenet.fun@gmail.com</p></a>
+<a class="card tilt" href="tel:88005553535"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2 1a11 11 0 005 5l1-2 5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg><h3>Phone</h3><p>8 800 555-35-35</p></a>
+<div class="card"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><h3>Support hours</h3><p>24/7, replies within 15 minutes</p></div></div></section></main>
+
+<footer><div class="wrap"><span>© 2026 WSN.Fun. All rights reserved.</span><span><a href="#">Privacy</a> <a href="#">Terms</a> <a href="#">Status</a></span></div></footer>
+
+<div class="modal" id="modal" hidden><div class="box" role="dialog" aria-modal="true" aria-labelledby="mt"><button class="x" id="close" aria-label="Close">×</button>
+<div class="tabs"><button data-tab="login">Sign in</button><button data-tab="register">Create account</button></div>
+<h3 id="mt"></h3><p id="note" class="muted"></p>
+<form id="form" novalidate><label>Email<input name="email" type="email" autocomplete="email" required></label>
+<label>Password<input name="password" type="password" autocomplete="current-password" minlength="6" required></label>
+<button class="btn big" id="sub">Continue</button><p class="err" id="err" role="alert" hidden></p></form></div></div>
+<script src="assets/js/app.js"></script></body></html>
